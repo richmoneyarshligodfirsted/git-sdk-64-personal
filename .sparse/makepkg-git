@@ -1,0 +1,151 @@
+# A copy of this file
+/.sparse/makepkg-git
+
+# Pacman
+/usr/bin/pacman.exe
+/usr/bin/pactree.exe
+/usr/bin/msys-gpg*.dll
+/usr/bin/gpg.exe
+/usr/bin/gpgconf.exe
+/usr/bin/msys-gcrypt*.dll
+/usr/bin/msys-z.dll
+/usr/bin/msys-sqlite*.dll
+/usr/bin/msys-bz2*.dll
+/usr/bin/msys-assuan*.dll
+/etc/pacman*
+/usr/ssl/certs/ca-bundle.crt
+/usr/share/pacman/
+/var/lib/pacman/local/
+
+# GPG agent
+/usr/bin/gpg-agent.exe
+/usr/bin/msys-npth-[0-9]*.dll
+
+# makepkg
+/usr/bin/makepkg
+/usr/bin/makepkg-mingw
+/usr/bin/repo-add
+/usr/bin/repo-remove
+/usr/bin/paste.exe
+/usr/bin/nproc.exe
+/usr/bin/sha256sum.exe
+/usr/bin/file.exe
+/usr/bin/msys-magic*.dll
+/usr/share/misc/magic.mgc
+/usr/bin/bsdtar.exe
+/usr/bin/msys-crypto-*.dll
+/usr/bin/msys-zstd*.dll
+/usr/bin/msys-nettle*.dll
+/usr/bin/msys-lzma*.dll
+/usr/bin/msys-lz4*.dll
+/usr/bin/msys-expat*.dll
+/usr/bin/bzip2.exe
+/usr/bin/xmlcatalog.exe
+/usr/bin/msys-xml2-*.dll
+/usr/bin/msys-icu*.dll
+/usr/bin/msys-stdc++*.dll
+/usr/share/xml/
+/etc/xml/catalog
+/usr/bin/updpkgsums
+/dev/
+/etc/makepkg*
+/usr/share/makepkg/
+/usr/bin/zstd.exe
+
+# gettext (for makepkg)
+/usr/bin/gettext.exe
+/usr/bin/xgettext.exe
+/usr/bin/msys-gettext*.dll
+
+# The `error_highlight` Ruby gem, needed by `asciidoctor`
+*error_highlight*
+
+# AsciiDoctor
+/ucrt64/bin/asciidoctor
+/ucrt64/bin/ruby.exe
+/ucrt64/bin/x64-ucrt-ruby*.dll
+/ucrt64/lib/ruby/*/x64-mingw-ucrt/rbconfig.rb
+/ucrt64/lib/ruby/*/rubygems.rb
+/ucrt64/lib/ruby/*/rubygems/
+/ucrt64/lib/ruby/*/delegate.rb
+/ucrt64/lib/ruby/*/uri.rb
+/ucrt64/lib/ruby/*/uri/
+/ucrt64/lib/ruby/*/x64-mingw-ucrt/stringio.so
+/ucrt64/lib/ruby/*/monitor.rb
+/ucrt64/lib/ruby/*/x64-mingw-ucrt/monitor.so
+/ucrt64/lib/ruby/gems/*/gems/asciidoctor-*
+/ucrt64/lib/ruby/gems/*/specifications/asciidoctor-*.gemspec
+/ucrt64/lib/ruby/*/tsort.rb
+/ucrt64/lib/ruby/*/set.rb
+/ucrt64/lib/ruby/**/*/logger*
+/ucrt64/lib/ruby/*/x64-mingw-ucrt/enc/encdb.so
+/ucrt64/lib/ruby/*/x64-mingw-ucrt/enc/windows_1252.so
+/ucrt64/lib/ruby/*/optparse.rb
+/ucrt64/lib/ruby/*/strscan/strscan.rb
+/ucrt64/lib/ruby/*/x64-mingw-ucrt/strscan.so
+/ucrt64/lib/ruby/*/pathname.rb
+/ucrt64/lib/ruby/*/x64-mingw-ucrt/pathname.so
+/ucrt64/lib/ruby/*/did_you_mean*
+/ucrt64/lib/ruby/*/cgi/*
+/ucrt64/lib/ruby/*/bundled_gems.rb
+/ucrt64/lib/ruby/*/syntax_suggest*
+
+# xsltproc (e.g. for Git's user-manual.html)
+/usr/bin/xsltproc.exe
+/usr/bin/msys-exslt-*.dll
+/usr/bin/msys-xslt-*.dll
+
+# xmlto (for the man pages)
+/usr/bin/xmlto
+/usr/bin/getopt.exe
+/usr/bin/xmllint.exe
+/usr/share/xmlto/format/docbook/man
+
+# pod2man (for the man page Git.3pm)
+/usr/bin/core_perl/pod2man
+/usr/share/perl5/core_perl/Pod/
+/usr/share/perl5/core_perl/subs.pm
+/usr/lib/perl5/core_perl/Encode.pm
+/usr/lib/perl5/core_perl/Encode/
+/usr/lib/perl5/core_perl/Storable.pm
+/usr/lib/perl5/core_perl/auto/Encode/
+/usr/lib/perl5/core_perl/auto/Storable/Storable.dll
+/usr/share/perl5/core_perl/Encode/
+/usr/share/perl5/core_perl/if.pm
+/usr/share/perl5/core_perl/parent.pm
+
+# For building `git-wrapper.exe` in `mingw-w64-git`
+/ucrt64/include/sh*
+/ucrt64/lib/libshlwapi.a
+/ucrt64/x86_64-w64-mingw32/lib/libshlwapi.a
+/ucrt64/x86_64-w64-mingw32/lib/libcomdlg32.a
+
+# For `cv2pdb-strip` in `mingw-w64-git`
+/usr/bin/stat.exe
+/ucrt64/bin/cv2pdb.exe
+
+# For "installing" into `pkg/`
+/usr/bin/install.exe
+
+# For a functional `tclsh` so that git-gui can be built
+/ucrt64/bin/wish.exe
+/ucrt64/lib/tcl8.6/
+
+# To compress Pacman packages
+/usr/bin/xz.exe
+
+# To validate `git-subtree`'s documentation
+/etc/xml/docbook-xml
+
+# For code-signing
+/ucrt64/bin/osslsigncode.exe
+/ucrt64/bin/libgsf-[0-9]*.dll
+/ucrt64/bin/libglib-[0-9]*.dll
+/ucrt64/bin/libgobject-[0-9]*.dll
+/ucrt64/bin/libgio-[0-9]*.dll
+/ucrt64/bin/libxml2-[0-9]*.dll
+/ucrt64/bin/libgmodule-[0-9]*.dll
+/ucrt64/bin/libbz2-[0-9]*.dll
+/ucrt64/bin/liblzma-[0-9]*.dll
+/ucrt64/bin/libpcre-[0-9]*.dll
+/ucrt64/bin/libffi-[0-9]*.dll

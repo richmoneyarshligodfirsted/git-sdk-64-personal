@@ -1,0 +1,5 @@
+# foundry	ps-font-name	ps-font-file
+# A blank foundry is the default.
+
+	FreeEuro	../devps/freeeuro.pfa
+	Symbol-Slanted	symbolsl.pfb
